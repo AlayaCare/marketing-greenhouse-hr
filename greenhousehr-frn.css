@@ -1,0 +1,70 @@
+body {
+    background-color: #F1F5FF;
+}
+
+#logo {
+    display: none !important;
+}
+
+h1, .h1 {
+    font-family: "Calibre",Poppins,Roboto,sans-serif;
+    font-size: 50px;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+h1 {
+    display: none;
+}
+
+h3 {
+    display: none !important;
+}
+
+#embedded_job_board_wrapper #content {
+    display: none !important;
+}
+
+#board_title {
+    display: none !important;
+}
+
+.opening {
+    padding: 20px 0;
+    margin-bottom: 0 !important;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.accessible .select2-container .select2-choice {
+    padding: 6px;
+}
+
+.select2-container .select2-choice .select2-arrow b {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(https://boards.cdn.greenhouse.io/assets/select2-0a7c5f9ecd8cac3b477796a07b26a6b1698005cf52bc2f9c1fe81bf9844e64a5.png) no-repeat 0 7px !important;
+}
+
+.accessible .filter-container {
+    margin-bottom: 30px;
+}
+
+.accessible .level-0 h2, .accessible .level-0 h3, .accessible .level-0 h4, .accessible .level-0 h5, .accessible .level-0 h6 {
+    margin-top: 46px !important;
+    margin-bottom: 6px !important;
+    font-size: 20px;
+}
+
+h1.app-title {
+    display: block !important;
+    margin-bottom: 24px !important;
+}
+
+@media (min-width: 768px) {
+    #embedded_job_board_wrapper {
+        padding: 0 !important;
+    }
+    #wrapper {
+        padding: 0 !important;
+    }
+}
